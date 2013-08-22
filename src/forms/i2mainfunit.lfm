@@ -1,0 +1,8 @@
+object IIntegralMainForm: TIIntegralMainForm
+  Left = 382
+  Height = 240
+  Top = 162
+  Width = 320
+  Caption = 'IIntegralMainForm'
+  LCLVersion = '1.1'
+end
