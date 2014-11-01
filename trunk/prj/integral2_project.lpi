@@ -36,7 +36,7 @@
         <PackageName Value="LCL"/>
       </Item1>
     </RequiredPackages>
-    <Units Count="2">
+    <Units Count="3">
       <Unit0>
         <Filename Value="integral2_project.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -46,9 +46,15 @@
         <Filename Value="../src/forms/i2mainfunit.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="IIntegralMainForm"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="i2mainfunit"/>
       </Unit1>
+      <Unit2>
+        <Filename Value="../src/iidata.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="iidata"/>
+      </Unit2>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
@@ -58,7 +64,7 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="../src/forms"/>
+      <OtherUnitFiles Value="../src/forms;../src"/>
       <UnitOutputDirectory Value="units/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
